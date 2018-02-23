@@ -57,7 +57,7 @@ for i=1:length(sigma)
     %[l1,l2] = eigen2d_m(hxx,hxy,hxy,hyy);
     l2(l2==0) = eps;
     
-    %% vesselnes
+    % vesselnes
     rbeta = l1./l2;
     s = sqrt(l1.^2 + l2.^2);     
     vo = exp(-(rbeta.^2)/(2*beta^2)).*(ones(size(im))-exp(-(s.^2)/(2*c^2)));  
@@ -69,7 +69,7 @@ for i=1:length(sigma)
         vo(l2>0) = 0;
     end
     
-    %% vo for each scale
+    % vo for each scale
     v(:,:,i) = vo;
     
 end

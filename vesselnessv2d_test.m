@@ -17,10 +17,10 @@ wb = true;
 [v,vmax,vidx,vx,vy,l1,l2] = vesselnessv2d(im,sigma,gamma,beta,c,wb);
 
 %% plot
-figure;
-subplot(1,2,1), imagesc(im); colormap gray; 
+figure; imagesc(im); colormap gray; 
 set(gca,'ytick',[]); set(gca,'xtick',[]); axis image; axis tight;
-subplot(1,2,2), imagesc(vmax); colormap gray; 
+
+figure; imagesc(vmax); colormap gray; 
 set(gca,'ytick',[]); set(gca,'xtick',[]); axis image; axis tight;
 
 %% plot

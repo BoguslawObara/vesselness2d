@@ -1,7 +1,7 @@
 function [hxx,hxy,hyy] = hessian2d(im,s)
 
 %% Gaussian 2nd derivatives
-[gxx,gxy,gyy] = gaussian2nd2d(s) ;
+[gxx,gxy,gyy] = gaussian2nd2d(s);
 
 %% Hessian
 hxx = imfilter(im,gxx,'conv','same','replicate');
