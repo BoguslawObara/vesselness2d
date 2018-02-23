@@ -1,5 +1,5 @@
 # vesselness2d and vesselnessv2d
-multiscale vessel enhancement filtering<br/>
+2d multiscale vessel enhancement filtering<br/>
 
 | INPUT  | OUTPUT |
 | ------------- | ------------- |
