@@ -44,7 +44,7 @@ v = zeros(m,n,length(sigma));
 
 for i=1:length(sigma)
     
-    % second derivatives - hessian
+    % second derivatives - Hessian
     [hxx,hxy,hyy] = hessian2d(im,sigma(i));
     
     % normalized derivative - scale
