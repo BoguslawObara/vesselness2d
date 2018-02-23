@@ -2,10 +2,10 @@
 multiscale vessel enhancement filtering<br/>
 
 INPUT  
-![alt tag](https://github.com/BoguslawObara/vesselness2d/blob/master/im/jellyfish.png){:width="200px"}
+![alt tag](https://github.com/BoguslawObara/vesselness2d/blob/master/im/jellyfish.png)
 
 OUTPUT  
-![alt tag](https://github.com/BoguslawObara/vesselness2d/blob/master/im/jellyfish_v.png){:width="200px"}
+![alt tag](https://github.com/BoguslawObara/vesselness2d/blob/master/im/jellyfish_v.png)
 
 If you find this code useful in your research and developement, please consider citing:
 
