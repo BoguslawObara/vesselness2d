@@ -14,11 +14,11 @@ beta = 0.5;
 c = 15; 
 wb = true;
 
-[v,vmax] = vesselness2d(im,sigma,gamma,beta,c,wb);
+[imv,v] = vesselness2d(im,sigma,gamma,beta,c,wb);
 
 %% plot
 figure; imagesc(im); colormap gray; 
 set(gca,'ytick',[]); set(gca,'xtick',[]); axis image; axis tight;
 
-figure; imagesc(vmax); colormap gray; 
+figure; imagesc(imv); colormap gray; 
 set(gca,'ytick',[]); set(gca,'xtick',[]); axis image; axis tight;

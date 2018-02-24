@@ -1,4 +1,4 @@
-function [v,vmax] = vesselness2d(im,sigma,gamma,beta,c,wb )
+function [imv,v] = vesselness2d(im,sigma,gamma,beta,c,wb )
 %%  vesselness2d - multiscale vessel enhancement filtering
 %   
 %   REFERENCE:
@@ -15,7 +15,7 @@ function [v,vmax] = vesselness2d(im,sigma,gamma,beta,c,wb )
 %       wb      - detect black or white regions
 %
 %   OUTPUT:
-%       vmax    - vesselness
+%       imv     - vesselness
 %       v       - all vesselness images for each sigma
 %
 %   AUTHOR:
@@ -76,9 +76,9 @@ end
 
 %% calculate maximum over the scales
 if length(sigma)>1
-    vmax = max(v,[],3);
+    imv = max(v,[],3);
 else
-    vmax = V;
+    imv = v;
 end
 
 end
