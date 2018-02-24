@@ -1,7 +1,7 @@
 # vesselness2d and vesselnessv2d
 2d multiscale vessel enhancement filtering<br/>
 
-| INPUT  | OUTPUT |
+| INPUT | OUTPUT |
 | ------------- | ------------- |
 | <img src="https://github.com/BoguslawObara/vesselness2d/blob/master/im/jellyfish.png" width="250">  | <img src="https://github.com/BoguslawObara/vesselness2d/blob/master/im/jellyfish_v.png" width="250"> |
 
